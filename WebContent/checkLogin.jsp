@@ -15,6 +15,8 @@
 	<% request.setCharacterEncoding("utf-8"); %>
 	用户名：<%=request.getParameter("username") %><br/>
 	密码：<%=request.getParameter("password") %>
+	<hr/>
+	url传来的值urlUsername=<%=request.getParameter("urlUserName") %>密码urlPassword=<%=request.getParameter("urlPassword") %>
 	
 	
 </body>

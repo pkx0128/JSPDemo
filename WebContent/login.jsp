@@ -23,6 +23,7 @@
 			</tr>
 		</table>
 	</form>
-
+<hr>
+	<a href="checkLogin.jsp?urlUserName=url1234&urlPassword=urlppp">通过url传参数</a>
 </body>
 </html>
