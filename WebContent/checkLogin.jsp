@@ -11,9 +11,11 @@
 	<hr>
 	提交的数据：<br/>
 	<%-- <hr> --%>
+	<%--处理中文乱码问题 --%>
+	<% request.setCharacterEncoding("utf-8"); %>
 	用户名：<%=request.getParameter("username") %><br/>
 	密码：<%=request.getParameter("password") %>
-	<%=request.getParameterValues("Login") %>
+	
 	
 </body>
 </html>
