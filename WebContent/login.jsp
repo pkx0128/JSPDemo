@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>登录</h1>
-	<form action="checkLogin.jsp" name='Login' method='post'>
+	<form action="response.jsp" name='Login' method='post'>
 		<table>
 			<tr>
 				<td>用户名：</td>
