@@ -23,7 +23,7 @@ session创建的时间:<%=sm.format(session.getCreationTime()) %><br/>
 获得session唯一的id号:<%=session.getId() %><br/>
 获取session指定的键值：<%=session.getAttribute("username") %><br/>
 <%
-	session.invalidate();//销毁当前会话
+	//session.invalidate();//销毁当前会话
 %>
 
 <a href=session_page2.jsp>跳转到Session_page2</a>
